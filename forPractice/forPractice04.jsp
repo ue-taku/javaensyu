@@ -8,11 +8,11 @@
 </head>
 <body>
 	<pre>
-	<%
+<%
 		for (int i = 0; i < 10; i++) {
 			out.println(i);
 		}
-	%>
+%>
 	</pre>
 </body>
 </html>

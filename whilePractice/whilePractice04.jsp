@@ -1,5 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
-	pageEncoding="UTF-8"%>
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -9,11 +9,10 @@
 <body>
 <pre>
 <%
-		for (int i = 0; i < 5; i++) {
-			for (int j = 0; j < 5; j++) {
-				out.print('*');
-			}
-			out.println();
+		int i = 0;
+		while (i < 5) {
+			out.println(i);
+			i++;
 		}
 %>
 </pre>

@@ -7,12 +7,13 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<%
+	<pre>
+<%
 		for (int i = 0; i < 10; i++) {
-			out.println("*");
-
+			out.println('*');
 		}
-	%>
-<br>
+%>
+	</pre>
+	<br>
 </body>
 </html>

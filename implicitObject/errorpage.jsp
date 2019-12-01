@@ -1,5 +1,8 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
-	pageEncoding="UTF-8"%>
+    isErrorPage="true" pageEncoding="UTF-8"%>
+<%
+response.sendRedirect("practice_src_error.html");
+%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -7,15 +10,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-<pre>
-<%
-		for (int i = 0; i < 5; i++) {
-			for (int j = 0; j < 5; j++) {
-				out.print('*');
-			}
-			out.println();
-		}
-%>
-</pre>
+hey
 </body>
 </html>

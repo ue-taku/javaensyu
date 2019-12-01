@@ -7,15 +7,12 @@
 <title>Insert title here</title>
 </head>
 <body>
-<pre>
-<%
-		for (int i = 0; i < 5; i++) {
-			for (int j = 0; j < 5; j++) {
-				out.print('*');
-			}
-			out.println();
+	<%
+		int i = 0;
+		while (i < 10) {
+			out.print('*');
+			i++;
 		}
-%>
-</pre>
+	%>
 </body>
 </html>

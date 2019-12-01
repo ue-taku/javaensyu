@@ -9,12 +9,12 @@
 <body>
 <pre>
 <%
-		for (int i = 0; i < 5; i++) {
-			for (int j = 0; j < 5; j++) {
-				out.print('*');
-			}
-			out.println();
+	for (int i = 0; i < 5; i++) {
+		for (int j = 0; j < i; j++) {
+			out.print('*');
 		}
+		out.println();
+	}
 %>
 </pre>
 </body>
